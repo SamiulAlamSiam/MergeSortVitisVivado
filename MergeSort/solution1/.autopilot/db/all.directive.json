@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "group3",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "E:\/USN_Education\/VitisCode\/MergeSort\/MergeSort\/solution1\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "group3"
+              }]
+          }
+        }]
+    }]}

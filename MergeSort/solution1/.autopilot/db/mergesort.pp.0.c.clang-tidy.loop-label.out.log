@@ -1,0 +1,40 @@
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:872:2: warning: Added loop label VITIS_LOOP_7_1:   [xilinx-label-all-loops]
+ for (size = 1; size < n; size = size * 2) {
+ ^~~
+ VITIS_LOOP_7_1: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:872:2: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:875:3: warning: Added loop label VITIS_LOOP_10_2:   [xilinx-label-all-loops]
+  while (l1 + size < n) {
+  ^~~~~
+  VITIS_LOOP_10_2: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:875:3: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:887:4: warning: Added loop label VITIS_LOOP_22_3:   [xilinx-label-all-loops]
+   while (i <= h1 && j <= h2) {
+   ^~~~~
+   VITIS_LOOP_22_3: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:887:4: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:894:4: warning: Added loop label VITIS_LOOP_29_4:   [xilinx-label-all-loops]
+   while (i <= h1)
+   ^~~~~
+   VITIS_LOOP_29_4: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:894:4: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:896:4: warning: Added loop label VITIS_LOOP_31_5:   [xilinx-label-all-loops]
+   while (j <= h2)
+   ^~~~~
+   VITIS_LOOP_31_5: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:896:4: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:904:3: warning: Added loop label VITIS_LOOP_39_6:   [xilinx-label-all-loops]
+  for (i = l1; k < n; i++)
+  ^~~
+  VITIS_LOOP_39_6: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:904:3: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:907:3: warning: Added loop label VITIS_LOOP_42_7:   [xilinx-label-all-loops]
+  for (i = 0; i < n; i++)
+  ^~~
+  VITIS_LOOP_42_7: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:907:3: note: FIX-IT applied suggested code changes
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:925:2: warning: Added loop label VITIS_LOOP_56_1:   [xilinx-label-all-loops]
+ for(int i=0; i<array_size; i++){
+ ^~~
+ VITIS_LOOP_56_1: 
+E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c:925:2: note: FIX-IT applied suggested code changes

@@ -1,0 +1,25 @@
+21:38:13 **** Incremental Build of configuration Debug for project MergeSortApplication ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/mergesort_vitis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mergesort_vitis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/sw/Merge_Sort_Platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/mergesort_vitis.d" -MT"src/mergesort_vitis.o" -o "src/mergesort_vitis.o" "../src/mergesort_vitis.c"
+'Finished building: ../src/mergesort_vitis.c'
+' '
+'Building target: MergeSortApplication.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/sw/Merge_Sort_Platform/standalone_domain/bsplib/lib -o "MergeSortApplication.elf"  ./src/mergesort_vitis.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MergeSortApplication.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MergeSortApplication.elf  |tee "MergeSortApplication.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22632	   1160	  22584	  46376	   b528	MergeSortApplication.elf
+'Finished building: MergeSortApplication.elf.size'
+' '
+
+21:38:13 Build Finished (took 478ms)
+

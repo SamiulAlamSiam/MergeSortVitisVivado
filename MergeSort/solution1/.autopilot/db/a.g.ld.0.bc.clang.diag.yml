@@ -1,0 +1,48 @@
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: mergesort.c, Line: 22, Column: 21 }
+Function:        mergeSort
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_22_3
+  - String:          ' '
+  - LoopLoc:         'mergesort.c:22:21'
+  - String:          ' '
+  - Function:        mergeSort
+    DebugLoc:        { File: mergesort.c, Line: 4, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: mergesort.c, Line: 10, Column: 20 }
+Function:        mergeSort
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_10_2
+  - String:          ' '
+  - LoopLoc:         'mergesort.c:10:20'
+  - String:          ' '
+  - Function:        mergeSort
+    DebugLoc:        { File: mergesort.c, Line: 4, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: mergesort.c, Line: 7, Column: 18 }
+Function:        mergeSort
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_7_1
+  - String:          ' '
+  - LoopLoc:         'mergesort.c:7:18'
+  - String:          ' '
+  - Function:        mergeSort
+    DebugLoc:        { File: mergesort.c, Line: 4, Column: 0 }
+  - String:          ' '
+...

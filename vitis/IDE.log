@@ -1,0 +1,384 @@
+17:50:24 DEBUG : Logs will be stored at 'E:/USN_Education/VitisCode/MergeSort/vitis/IDE.log'.
+17:50:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\USN_Education\VitisCode\MergeSort\vitis\temp_xsdb_launch_script.tcl
+17:50:27 INFO  : Registering command handlers for Vitis TCF services
+17:50:28 INFO  : Platform repository initialization has completed.
+17:50:29 INFO  : XSCT server has started successfully.
+17:50:29 INFO  : plnx-install-location is set to ''
+17:50:29 INFO  : Successfully done setting XSCT server connection channel  
+17:50:29 INFO  : Successfully done query RDI_DATADIR 
+17:50:29 INFO  : Successfully done setting workspace for the tool. 
+17:54:24 INFO  : Result from executing command 'getProjects': Merge_Sort_Platform
+17:54:24 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:56:16 INFO  : Result from executing command 'getProjects': Merge_Sort_Platform
+17:56:16 INFO  : Result from executing command 'getPlatforms': Merge_Sort_Platform|E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/Merge_Sort_Platform.xpfm;xilinx_vck190_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+18:05:16 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+18:07:17 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:28:28 DEBUG : Logs will be stored at 'E:/USN_Education/VitisCode/MergeSort/vitis/IDE.log'.
+19:28:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\USN_Education\VitisCode\MergeSort\vitis\temp_xsdb_launch_script.tcl
+19:28:39 INFO  : XSCT server has started successfully.
+19:28:40 INFO  : plnx-install-location is set to ''
+19:28:41 INFO  : Registering command handlers for Vitis TCF services
+19:28:44 INFO  : Platform repository initialization has completed.
+19:28:47 INFO  : Successfully done setting XSCT server connection channel  
+19:28:47 INFO  : Successfully done query RDI_DATADIR 
+19:28:47 INFO  : Successfully done setting workspace for the tool. 
+19:36:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:54 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:36:54 INFO  : 'jtag frequency' command is executed.
+19:36:54 INFO  : Context for 'APU' is selected.
+19:36:54 INFO  : System reset is completed.
+19:36:57 INFO  : 'after 3000' command is executed.
+19:36:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:36:58 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:36:59 INFO  : Context for 'APU' is selected.
+19:36:59 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:36:59 INFO  : 'configparams force-mem-access 1' command is executed.
+19:36:59 INFO  : Context for 'APU' is selected.
+19:36:59 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:37:00 INFO  : 'ps7_init' command is executed.
+19:37:00 INFO  : 'ps7_post_config' command is executed.
+19:37:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:37:00 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:37:00 INFO  : 'configparams force-mem-access 0' command is executed.
+19:37:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:37:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:37:00 INFO  : 'con' command is executed.
+19:37:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:37:00 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:38:58 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:39:44 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:40:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa is already opened
+
+19:40:52 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:41:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa is already opened
+
+19:46:36 INFO  : Result from executing command 'removePlatformRepo': 
+19:47:17 DEBUG : Logs will be stored at 'E:/USN_Education/VitisCode/MergeSort/vitis/IDE.log'.
+19:47:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\USN_Education\VitisCode\MergeSort\vitis\temp_xsdb_launch_script.tcl
+19:47:19 INFO  : Registering command handlers for Vitis TCF services
+19:47:19 INFO  : XSCT server has started successfully.
+19:47:20 INFO  : plnx-install-location is set to ''
+19:47:20 INFO  : Successfully done setting XSCT server connection channel  
+19:47:20 INFO  : Successfully done query RDI_DATADIR 
+19:47:20 INFO  : Successfully done setting workspace for the tool. 
+19:47:20 INFO  : Platform repository initialization has completed.
+19:47:42 INFO  : Result from executing command 'getProjects': Merge_Sort_Platform
+19:47:42 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+19:47:43 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:48:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:48:07 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:48:07 INFO  : 'jtag frequency' command is executed.
+19:48:07 INFO  : Context for 'APU' is selected.
+19:48:07 INFO  : System reset is completed.
+19:48:10 INFO  : 'after 3000' command is executed.
+19:48:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:48:12 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:48:12 INFO  : Context for 'APU' is selected.
+19:48:12 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:48:12 INFO  : 'configparams force-mem-access 1' command is executed.
+19:48:12 INFO  : Context for 'APU' is selected.
+19:48:12 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:48:12 INFO  : 'ps7_init' command is executed.
+19:48:12 INFO  : 'ps7_post_config' command is executed.
+19:48:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:48:12 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:48:12 INFO  : 'configparams force-mem-access 0' command is executed.
+19:48:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:48:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:48:13 INFO  : 'con' command is executed.
+19:48:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:48:13 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:50:10 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:50:27 INFO  : Disconnected from the channel tcfchan#3.
+19:50:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:50:27 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:50:27 INFO  : 'jtag frequency' command is executed.
+19:50:28 INFO  : Context for 'APU' is selected.
+19:50:28 INFO  : System reset is completed.
+19:50:31 INFO  : 'after 3000' command is executed.
+19:50:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:50:32 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:50:32 INFO  : Context for 'APU' is selected.
+19:50:32 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:50:32 INFO  : 'configparams force-mem-access 1' command is executed.
+19:50:32 INFO  : Context for 'APU' is selected.
+19:50:32 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:50:32 INFO  : 'ps7_init' command is executed.
+19:50:32 INFO  : 'ps7_post_config' command is executed.
+19:50:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:50:33 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:50:33 INFO  : 'configparams force-mem-access 0' command is executed.
+19:50:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:50:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:50:33 INFO  : 'con' command is executed.
+19:50:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:50:33 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:51:48 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:52:05 INFO  : Disconnected from the channel tcfchan#5.
+19:52:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:05 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:52:05 INFO  : 'jtag frequency' command is executed.
+19:52:05 INFO  : Context for 'APU' is selected.
+19:52:05 INFO  : System reset is completed.
+19:52:08 INFO  : 'after 3000' command is executed.
+19:52:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:52:10 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:52:10 INFO  : Context for 'APU' is selected.
+19:52:10 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:52:10 INFO  : 'configparams force-mem-access 1' command is executed.
+19:52:10 INFO  : Context for 'APU' is selected.
+19:52:10 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:52:10 INFO  : 'ps7_init' command is executed.
+19:52:10 INFO  : 'ps7_post_config' command is executed.
+19:52:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:52:10 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:52:10 INFO  : 'configparams force-mem-access 0' command is executed.
+19:52:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:52:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:52:10 INFO  : 'con' command is executed.
+19:52:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:52:10 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:54:38 INFO  : Result from executing command 'getProjects': Merge_Sort_Platform
+19:54:38 INFO  : Result from executing command 'getPlatforms': Merge_Sort_Platform|E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/Merge_Sort_Platform.xpfm;xilinx_vck190_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Software/Embeded/xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+19:54:39 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:55:13 INFO  : Disconnected from the channel tcfchan#7.
+19:55:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:55:13 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:55:13 INFO  : 'jtag frequency' command is executed.
+19:55:14 INFO  : Context for 'APU' is selected.
+19:55:14 INFO  : System reset is completed.
+19:55:17 INFO  : 'after 3000' command is executed.
+19:55:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:55:18 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:55:18 INFO  : Context for 'APU' is selected.
+19:55:18 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:55:18 INFO  : 'configparams force-mem-access 1' command is executed.
+19:55:18 INFO  : Context for 'APU' is selected.
+19:55:18 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:55:18 INFO  : 'ps7_init' command is executed.
+19:55:18 INFO  : 'ps7_post_config' command is executed.
+19:55:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:18 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:55:18 INFO  : 'configparams force-mem-access 0' command is executed.
+19:55:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:55:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:55:18 INFO  : 'con' command is executed.
+19:55:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:55:18 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:56:22 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:56:39 INFO  : Disconnected from the channel tcfchan#10.
+19:56:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:56:39 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:56:40 INFO  : 'jtag frequency' command is executed.
+19:56:40 INFO  : Context for 'APU' is selected.
+19:56:40 INFO  : System reset is completed.
+19:56:43 INFO  : 'after 3000' command is executed.
+19:56:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:56:44 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:56:44 INFO  : Context for 'APU' is selected.
+19:56:44 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:56:44 INFO  : 'configparams force-mem-access 1' command is executed.
+19:56:44 INFO  : Context for 'APU' is selected.
+19:56:44 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:56:45 INFO  : 'ps7_init' command is executed.
+19:56:45 INFO  : 'ps7_post_config' command is executed.
+19:56:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:56:45 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:56:45 INFO  : 'configparams force-mem-access 0' command is executed.
+19:56:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:56:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:56:45 INFO  : 'con' command is executed.
+19:56:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:56:45 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:57:48 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+19:58:02 INFO  : Disconnected from the channel tcfchan#12.
+19:58:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:58:02 INFO  : Jtag cable 'Digilent Zybo 210279652014A' is selected.
+19:58:02 INFO  : 'jtag frequency' command is executed.
+19:58:02 INFO  : Context for 'APU' is selected.
+19:58:02 INFO  : System reset is completed.
+19:58:05 INFO  : 'after 3000' command is executed.
+19:58:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}' command is executed.
+19:58:07 INFO  : Device configured successfully with "E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit"
+19:58:07 INFO  : Context for 'APU' is selected.
+19:58:07 INFO  : Hardware design and registers information is loaded from 'E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa'.
+19:58:07 INFO  : 'configparams force-mem-access 1' command is executed.
+19:58:07 INFO  : Context for 'APU' is selected.
+19:58:07 INFO  : Sourcing of 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl' is done.
+19:58:07 INFO  : 'ps7_init' command is executed.
+19:58:07 INFO  : 'ps7_post_config' command is executed.
+19:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:58:07 INFO  : The application 'E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:58:07 INFO  : 'configparams force-mem-access 0' command is executed.
+19:58:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279652014A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279652014A-13722093-0"}
+fpga -file E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/bitstream/merge_sort_design_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/USN_Education/VitisCode/MergeSort/vitis/MergeSortApplication/Debug/MergeSortApplication.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:58:07 INFO  : 'con' command is executed.
+19:58:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:58:07 INFO  : Launch script is exported to file 'E:\USN_Education\VitisCode\MergeSort\vitis\MergeSortApplication_system\_ide\scripts\systemdebugger_mergesortapplication_system_standalone.tcl'
+19:58:57 INFO  : Disconnected from the channel tcfchan#14.
+21:36:45 DEBUG : Logs will be stored at 'E:/USN_Education/VitisCode/MergeSort/vitis/IDE.log'.
+21:36:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\USN_Education\VitisCode\MergeSort\vitis\temp_xsdb_launch_script.tcl
+21:36:47 INFO  : Registering command handlers for Vitis TCF services
+21:36:47 INFO  : XSCT server has started successfully.
+21:36:47 INFO  : plnx-install-location is set to ''
+21:36:47 INFO  : Successfully done setting XSCT server connection channel  
+21:36:47 INFO  : Successfully done query RDI_DATADIR 
+21:36:47 INFO  : Successfully done setting workspace for the tool. 
+21:36:48 INFO  : Platform repository initialization has completed.
+21:38:11 INFO  : Checking for BSP changes to sync application flags for project 'MergeSortApplication'...
+21:38:15 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file E:/USN_Education/VitisCode/MergeSort/vitis/Merge_Sort_Platform/export/Merge_Sort_Platform/hw/merge_sort_design_wrapper.xsa is already opened
+

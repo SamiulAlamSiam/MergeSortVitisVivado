@@ -1,0 +1,76 @@
+---
+MainSourceFile:  'E:/USN_Education/VitisCode/MergeSort/MergeSort/solution1/.autopilot/db/mergesort.pp.0.c'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_7_1:  '
+    FileOffset:      7
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46528
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_7_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_10_2:  '
+    FileOffset:      10
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46593
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_10_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_3:  '
+    FileOffset:      22
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46740
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_29_4:  '
+    FileOffset:      29
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46867
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_29_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_5:  '
+    FileOffset:      31
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46912
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_6:  '
+    FileOffset:      39
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          46980
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_42_7:  '
+    FileOffset:      42
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          47031
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_42_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_1:  '
+    FileOffset:      56
+    FilePath:        mergesort.c
+    Replacements:    
+      - FilePath:        'E:\USN_Education\VitisCode\MergeSort\MergeSort\solution1\.autopilot\db\mergesort.pp.0.c'
+        Offset:          47552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_1: '
+...

@@ -1,0 +1,21 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../mergesort_tb.c in debug mode
+INFO: [HLS 200-10] Running 'D:/Software/Embeded/xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'SAS' on host 'desktop-noapfmr' (Windows NT_amd64 version 6.2) on Fri Dec 09 10:26:33 +0100 2022
+INFO: [HLS 200-10] In directory 'E:/USN_Education/VitisCode/MergeSort/MergeSort/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 5.904 seconds; peak allocated memory: 7.289 MB.
+   Compiling(apcc) ../../../../mergesort.c in debug mode
+INFO: [HLS 200-10] Running 'D:/Software/Embeded/xilinx/Vitis_HLS/2022.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'SAS' on host 'desktop-noapfmr' (Windows NT_amd64 version 6.2) on Fri Dec 09 10:26:41 +0100 2022
+INFO: [HLS 200-10] In directory 'E:/USN_Education/VitisCode/MergeSort/MergeSort/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 1.14 seconds; peak allocated memory: 7.430 MB.
+   Generating csim.exe
+Merge Sort: 
+5, 6, 11, 12, 13, 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

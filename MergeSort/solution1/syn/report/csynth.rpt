@@ -1,0 +1,168 @@
+
+
+================================================================
+== Synthesis Summary Report of 'group3'
+================================================================
++ General Information: 
+    * Date:           Fri Dec  9 10:27:50 2022
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        MergeSort
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z010-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +------------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+------------+-----+
+    |                  Modules                 | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |           |            |     |
+    |                  & Loops                 | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |     LUT    | URAM|
+    +------------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+------------+-----+
+    |+ group3                                  |     -|  0.38|        -|       -|         -|        -|     -|        no|     -|   -|  1768 (5%)|  2379 (13%)|    -|
+    | + mergeSort                              |     -|  0.38|        -|       -|         -|        -|     -|        no|     -|   -|  1446 (4%)|  1975 (11%)|    -|
+    |  o VITIS_LOOP_7_1                        |     -|  7.30|        -|       -|         -|        -|     -|        no|     -|   -|          -|           -|    -|
+    |   + mergeSort_Pipeline_VITIS_LOOP_39_6   |     -|  2.19|        -|       -|         -|        -|     -|        no|     -|   -|  131 (~0%)|   129 (~0%)|    -|
+    |    o VITIS_LOOP_39_6                     |     -|  7.30|        -|       -|         1|        1|     -|       yes|     -|   -|          -|           -|    -|
+    |   + mergeSort_Pipeline_VITIS_LOOP_42_7   |     -|  3.19|        -|       -|         -|        -|     -|        no|     -|   -|   34 (~0%)|    94 (~0%)|    -|
+    |    o VITIS_LOOP_42_7                     |     -|  7.30|        -|       -|         2|        1|     -|       yes|     -|   -|          -|           -|    -|
+    |   o VITIS_LOOP_10_2                      |     -|  7.30|        -|       -|         -|        -|     -|        no|     -|   -|          -|           -|    -|
+    |    + mergeSort_Pipeline_VITIS_LOOP_22_3  |     -|  0.55|        -|       -|         -|        -|     -|        no|     -|   -|  259 (~0%)|    378 (2%)|    -|
+    |     o VITIS_LOOP_22_3                    |     -|  7.30|        -|       -|         1|        1|     -|       yes|     -|   -|          -|           -|    -|
+    |    + mergeSort_Pipeline_VITIS_LOOP_29_4  |     -|  2.19|        -|       -|         -|        -|     -|        no|     -|   -|  195 (~0%)|    209 (1%)|    -|
+    |     o VITIS_LOOP_29_4                    |     -|  7.30|        -|       -|         1|        1|     -|       yes|     -|   -|          -|           -|    -|
+    |    + mergeSort_Pipeline_VITIS_LOOP_31_5  |     -|  2.19|        -|       -|         -|        -|     -|        no|     -|   -|  195 (~0%)|    209 (1%)|    -|
+    |     o VITIS_LOOP_31_5                    |     -|  7.30|        -|       -|         1|        1|     -|       yes|     -|   -|          -|           -|    -|
+    | o VITIS_LOOP_56_1                        |     -|  7.30|        -|       -|         2|        1|     -|       yes|     -|   -|          -|           -|    -|
+    +------------------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+----------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register       | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+----------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL           | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER           | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER         | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR         | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | array_r_i      | 0x10   | 32    | W      | Data signal of array_r_i         |                                                                      |
+| s_axi_control | array_r_o      | 0x18   | 32    | R      | Data signal of array_r_o         |                                                                      |
+| s_axi_control | array_r_o_ctrl | 0x1c   | 32    | R      | Control signal of array_r_o      | 0=array_r_o_ap_vld                                                   |
+| s_axi_control | array_size     | 0x20   | 32    | W      | Data signal of array_size        |                                                                      |
+| s_axi_control | output_r       | 0x28   | 32    | R      | Data signal of output_r          |                                                                      |
+| s_axi_control | output_r_ctrl  | 0x2c   | 32    | R      | Control signal of output_r       | 0=output_r_ap_vld                                                    |
++---------------+----------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+----------+
+| Argument   | Direction | Datatype |
++------------+-----------+----------+
+| array      | inout     | int*     |
+| array_size | in        | int      |
+| output     | out       | int*     |
++------------+-----------+----------+
+
+* SW-to-HW Mapping
++------------+---------------+-----------+--------------------------------------+
+| Argument   | HW Interface  | HW Type   | HW Info                              |
++------------+---------------+-----------+--------------------------------------+
+| array      | s_axi_control | interface |                                      |
+| array_size | s_axi_control | register  | name=array_size offset=0x20 range=32 |
+| output     | s_axi_control | interface |                                      |
++------------+---------------+-----------+--------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------------------+-----+--------+------------+-----+--------+---------+
+| Name                                   | DSP | Pragma | Variable   | Op  | Impl   | Latency |
++----------------------------------------+-----+--------+------------+-----+--------+---------+
+| + group3                               | 0   |        |            |     |        |         |
+|   add_ln56_fu_110_p2                   | -   |        | add_ln56   | add | fabric | 0       |
+|  + mergeSort                           | 0   |        |            |     |        |         |
+|    sub7_fu_199_p2                      | -   |        | sub7       | add | fabric | 0       |
+|    add_ln13_fu_223_p2                  | -   |        | add_ln13   | add | fabric | 0       |
+|    l2_fu_229_p2                        | -   |        | l2         | add | fabric | 0       |
+|    h1_fu_271_p2                        | -   |        | h1         | add | fabric | 0       |
+|    h2_fu_249_p2                        | -   |        | h2         | add | fabric | 0       |
+|    sub_ln22_fu_281_p2                  | -   |        | sub_ln22   | sub | fabric | 0       |
+|    add_ln29_fu_319_p2                  | -   |        | add_ln29   | add | fabric | 0       |
+|    sub_ln35_fu_364_p2                  | -   |        | sub_ln35   | sub | fabric | 0       |
+|    l1_fu_381_p2                        | -   |        | l1         | add | fabric | 0       |
+|   + mergeSort_Pipeline_VITIS_LOOP_39_6 | 0   |        |            |     |        |         |
+|     add_ln40_fu_85_p2                  | -   |        | add_ln40   | add | fabric | 0       |
+|   + mergeSort_Pipeline_VITIS_LOOP_22_3 | 0   |        |            |     |        |         |
+|     add_ln24_fu_268_p2                 | -   |        | add_ln24   | add | fabric | 0       |
+|     i_3_fu_274_p2                      | -   |        | i_3        | add | fabric | 0       |
+|     add_ln22_fu_280_p2                 | -   |        | add_ln22   | add | fabric | 0       |
+|     add_ln22_1_fu_286_p2               | -   |        | add_ln22_1 | add | fabric | 0       |
+|     add_ln22_2_fu_292_p2               | -   |        | add_ln22_2 | add | fabric | 0       |
+|   + mergeSort_Pipeline_VITIS_LOOP_29_4 | 0   |        |            |     |        |         |
+|     add_ln30_fu_104_p2                 | -   |        | add_ln30   | add | fabric | 0       |
+|     add_ln30_1_fu_110_p2               | -   |        | add_ln30_1 | add | fabric | 0       |
+|   + mergeSort_Pipeline_VITIS_LOOP_31_5 | 0   |        |            |     |        |         |
+|     add_ln32_fu_104_p2                 | -   |        | add_ln32   | add | fabric | 0       |
+|     add_ln32_1_fu_110_p2               | -   |        | add_ln32_1 | add | fabric | 0       |
+|   + mergeSort_Pipeline_VITIS_LOOP_42_7 | 0   |        |            |     |        |         |
+|     add_ln42_fu_69_p2                  | -   |        | add_ln42   | add | fabric | 0       |
++----------------------------------------+-----+--------+------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++--------------+------+------+--------+----------+---------+------+---------+
+| Name         | BRAM | URAM | Pragma | Variable | Storage | Impl | Latency |
++--------------+------+------+--------+----------+---------+------+---------+
+| + group3     | 0    | 0    |        |          |         |      |         |
+|  + mergeSort | 0    | 0    |        |          |         |      |         |
+|    temp_U    | -    | -    |        | temp     | ram_1p  | auto | 1       |
++--------------+------+------+--------+----------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+---------------------------------+--------------------------+
+| Type      | Options                         | Location                 |
++-----------+---------------------------------+--------------------------+
+| interface | mode=s_axilite port= group3     | mergesort.c:49 in group3 |
+| interface | mode=s_axilite port= array      | mergesort.c:50 in group3 |
+| interface | mode=s_axilite port= array_size | mergesort.c:51 in group3 |
+| interface | mode=s_axilite port= output     | mergesort.c:52 in group3 |
++-----------+---------------------------------+--------------------------+
+
+
